@@ -1,4 +1,4 @@
-image: node:buster
+image: node:12-buster
 
 publish_vsce:
   stage: deploy
