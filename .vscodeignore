@@ -1,0 +1,5 @@
+.vscode/
+.gitlab-ci.yml
+.editorconfig
+.gitignore
+screenshots/

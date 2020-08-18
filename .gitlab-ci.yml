@@ -1,0 +1,19 @@
+image: node:buster
+
+publish_vsce:
+  stage: deploy
+  script:
+    - npx vsce publish -p "$VSCE_TOKEN" --baseImagesUrl https://gitlab.com/0dinD/familiar-java-themes/-/raw/
+  only:
+    - master
+  when: manual
+  allow_failure: false
+
+publish_ovsx:
+  stage: deploy
+  script:
+    - npx ovsx publish -p "$OVSX_TOKEN" --baseImagesUrl https://gitlab.com/0dinD/familiar-java-themes/-/raw/
+  only:
+    - master
+  when: manual
+  allow_failure: false

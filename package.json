@@ -1,0 +1,72 @@
+{
+	"name": "familiar-java-themes",
+	"displayName": "Familiar Java Themes",
+	"description": "Familiar color themes inspired by Java IDEs like Eclipse and IntelliJ IDEA.",
+	"author": "0dinD <zerodind@gmail.com>",
+	"publisher": "zerodind",
+	"version": "0.1.0",
+	"preview": true,
+	"license": "SEE LICENSE IN LICENSE.txt",
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"java",
+		"eclipse",
+		"intellij",
+		"darcula",
+		"semantic-highlighting"
+	],
+	"homepage": "https://gitlab.com/0dinD/familiar-java-themes",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/0dinD/familiar-java-themes.git"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/0dinD/familiar-java-themes/-/issues"
+	},
+	"icon": "logo.png",
+	"main": "extension.js",
+	"activationEvents": [
+		"onCommand:familiar-java-themes.configuration-helper"
+	],
+	"contributes": {
+		"commands": [
+			{
+				"command": "familiar-java-themes.configuration-helper",
+				"category": "Familiar Java Themes",
+				"title": "Configuration Helper"
+			}
+		],
+		"themes": [
+			{
+				"label": "Eclipse Light",
+				"uiTheme": "vs",
+				"path": "./themes/eclipse-light-color-theme.json"
+			},
+			{
+				"label": "Eclipse Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/eclipse-dark-color-theme.json"
+			},
+			{
+				"label": "IntelliJ Light",
+				"uiTheme": "vs",
+				"path": "./themes/intellij-light-color-theme.json"
+			},
+			{
+				"label": "IntelliJ Light (Classic)",
+				"uiTheme": "vs",
+				"path": "./themes/intellij-light-classic-color-theme.json"
+			},
+			{
+				"label": "IntelliJ Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/intellij-dark-color-theme.json"
+			}
+		]
+	}
+}
