@@ -12,6 +12,8 @@
 		"menu.background": "#E2E2E2",
 		"activityBar.background": "#E2E2E2",
 		"statusBar.background": "#E2E2E2",
+		"statusBar.debuggingBackground": "#E2E2E2",
+		"statusBar.noFolderBackground": "#E2E2E2",
 		"sideBarSectionHeader.background": "#E2E2E2",
 
 		"editorGutter.background": "#F8F8F8",

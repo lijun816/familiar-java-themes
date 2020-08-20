@@ -28,6 +28,8 @@
 		"activityBar.background": "#515658",
 		"menu.background": "#515658",
 		"statusBar.background": "#515658",
+		"statusBar.debuggingBackground": "#515658",
+		"statusBar.noFolderBackground": "#515658",
 		"panel.border": "#515658",
 		"sideBar.border": "#515658",
 		"input.border": "#515658",
