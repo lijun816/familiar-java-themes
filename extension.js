@@ -2,7 +2,7 @@ const vscode = require("vscode");
 
 function activate(context) {
 	context.subscriptions.push(vscode.commands.registerCommand(
-		"familiar-java-themes.configuration-helper",
+		"familiarJavaThemes.configurationHelper",
 		showConfigurationHelper
 	));
 }
@@ -37,8 +37,8 @@ const intelliJConfigurationValues = {
 };
 
 const CURRENT_VALUES = "Current Values";
-const INTELLIJ_VALUES = "IntelliJ Values"
-const DEFAULT_VALUES = "Default Values (Reset)"
+const INTELLIJ_VALUES = "IntelliJ Values";
+const DEFAULT_VALUES = "Default Values (Reset)";
 
 function showConfigurationHelper() {
 	const currentValues = {};

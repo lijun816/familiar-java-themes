@@ -314,7 +314,12 @@
 			"foreground": "#000000",
 			"fontStyle": ""
 		},
+		"modifier:java": {
+			"foreground": "#7F0055",
+			"fontStyle": "bold"
+		},
 		"annotation:java": "#646464",
+		"annotation.importDeclaration:java": "#000000",
 		"function.static:java": { "fontStyle": "italic" },
 		"function.declaration:java": { "fontStyle": "" },
 		"property:java": "#0000C0",

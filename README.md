@@ -1,7 +1,7 @@
 # Familiar Java Themes
 This extension brings back the default color themes from your favorite Java IDEs,
 such as **[Eclipse][1]** and **[IntelliJ IDEA][2]**! Currently a work in progress,
-as only the editor theme and a few syntax highlighting themes have been completed.
+as syntax highlighting has only a been implemented for a few Java-related languages.
 
 ## Screenshots
 *The screenshots below are taken with the [configuration tips][3] applied.*
@@ -53,6 +53,7 @@ as only the editor theme and a few syntax highlighting themes have been complete
   - Markdown syntax highlighting
   - EditorConfig syntax highlighting
   - More languages coming soon...
+- Configuration helper to easily match the IntelliJ visuals
 
 # Installing
 ### The extension can be installed from:
@@ -65,13 +66,20 @@ Select your preferred color theme from the VS Code settings, and optionally see
 
 # Configuration tips
 ## General
-It is recommended to install version `0.65.0` or higher of the [Language Support for Java(TM) by Red Hat][7]
-extension, in order to get the best results for Java syntax highlighting. After installation, it is **highly
-recommended** to enable semantic highlighting for Java, since the themes heavily rely upon that feature.
+It is **highly recommended** to use the semantic highlighting feature provided by version `0.69.0` or higher of the
+[Language Support for Java(TM) by Red Hat][7] extension, in order to get the best results for Java syntax highlighting.
+Previous versions of the Java extension do not provide all of the highlighting rules used by this theme extension.
 
 Semantic highlighting for Java is controlled by the following VS Code settings:
-- `editor.semanticHighlighting.enabled` (Enabled by default)
-- `java.semanticHighlighting.enabled` (Disabled by default)
+- `editor.semanticHighlighting.enabled`
+  - Defaults to true.
+- `java.semanticHighlighting.enabled`
+  - Defaults to true in since version `0.66.0` of the Language Support for Java extension.
+  - If you installed an earlier version of the Java extension, it's possible that this setting is still disabled.
+  - You may need to restart VS Code after changing this setting in order for it to take effect.
+
+Note that Semantic Highlighting needs to be computed by the Java Language Server,
+which means that it comes with a slight delay and may not be immediately available when starting VS Code.
 
 ## IntelliJ themes
 If you are used to IntelliJ IDEA, there are a couple of extra steps you can take

@@ -4,7 +4,7 @@
 	"description": "Familiar color themes inspired by Java IDEs like Eclipse and IntelliJ IDEA.",
 	"author": "0dinD <zerodind@gmail.com>",
 	"publisher": "zerodind",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"preview": true,
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"engines": {
@@ -31,12 +31,12 @@
 	"icon": "logo.png",
 	"main": "extension.js",
 	"activationEvents": [
-		"onCommand:familiar-java-themes.configuration-helper"
+		"onCommand:familiarJavaThemes.configurationHelper"
 	],
 	"contributes": {
 		"commands": [
 			{
-				"command": "familiar-java-themes.configuration-helper",
+				"command": "familiarJavaThemes.configurationHelper",
 				"category": "Familiar Java Themes",
 				"title": "Configuration Helper"
 			}

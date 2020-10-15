@@ -233,6 +233,7 @@
 				"entity.name.tag.yaml",
 
 				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown",
 				"punctuation.definition.constant.markdown",
 				"punctuation.definition.constant.begin.markdown",
 				"punctuation.definition.constant.end.markdown",
@@ -303,6 +304,7 @@
 			"foreground": "#000000",
 			"fontStyle": ""
 		},
+		"modifier:java": "#0033B3",
 		"annotation:java": "#9E880D",
 		"typeParameter:java": "#007E8A",
 		"function.static:java": {

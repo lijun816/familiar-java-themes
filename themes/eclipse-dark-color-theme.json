@@ -331,14 +331,37 @@
 			"foreground": "#D9E8F7",
 			"fontStyle": ""
 		},
+		"modifier:java": "#CC6C1D",
 		"class:java": "#1290C3",
 		"class.abstract:java": "#3EABE6",
+		"class.importDeclaration:java": "#D9E8F7",
 		"interface:java": "#80F2F6",
+		"interface.importDeclaration:java": "#D9E8F7",
 		"enum:java": {
 			"foreground": "#CC81BA",
 			"fontStyle": "italic"
 		},
+		"enum.importDeclaration:java": {
+			"foreground": "#D9E8F7",
+			"fontStyle": ""
+		},
 		"annotation:java": {
+			"foreground": "#A0A0A0",
+			"fontStyle": "italic"
+		},
+		"annotation.importDeclaration:java": {
+			"foreground": "#D9E8F7",
+			"fontStyle": ""
+		},
+		"*.typeArgument:java": "#B166DA",
+		"class.generic.typeArgument:java": "#1290C3",
+		"class.abstract.generic.typeArgument:java": "#3EABE6",
+		"interface.generic.typeArgument:java": "#80F2F6",
+		"enum.generic.typeArgument:java": {
+			"foreground": "#CC81BA",
+			"fontStyle": "italic"
+		},
+		"annotation.generic.typeArgument:java": {
 			"foreground": "#A0A0A0",
 			"fontStyle": "italic"
 		},
