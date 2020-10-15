@@ -3,7 +3,7 @@ image: node:12-buster
 publish_vsce:
   stage: deploy
   script:
-    - npx vsce publish -p "$VSCE_TOKEN" --baseImagesUrl https://gitlab.com/0dinD/familiar-java-themes/-/raw/master/
+    - npx vsce publish -p "$VSCE_TOKEN" --baseImagesUrl https://gitlab.com/zerodind/familiar-java-themes/-/raw/master/
   only:
     - master
   when: manual
@@ -12,7 +12,7 @@ publish_vsce:
 publish_ovsx:
   stage: deploy
   script:
-    - npx ovsx publish -p "$OVSX_TOKEN" --baseImagesUrl https://gitlab.com/0dinD/familiar-java-themes/-/raw/master/
+    - npx ovsx publish -p "$OVSX_TOKEN" --baseImagesUrl https://gitlab.com/zerodind/familiar-java-themes/-/raw/master/
   only:
     - master
   when: manual

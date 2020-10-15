@@ -20,13 +20,13 @@
 		"darcula",
 		"semantic-highlighting"
 	],
-	"homepage": "https://gitlab.com/0dinD/familiar-java-themes",
+	"homepage": "https://gitlab.com/zerodind/familiar-java-themes",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.com/0dinD/familiar-java-themes.git"
+		"url": "https://gitlab.com/zerodind/familiar-java-themes.git"
 	},
 	"bugs": {
-		"url": "https://gitlab.com/0dinD/familiar-java-themes/-/issues"
+		"url": "https://gitlab.com/zerodind/familiar-java-themes/-/issues"
 	},
 	"icon": "logo.png",
 	"main": "extension.js",

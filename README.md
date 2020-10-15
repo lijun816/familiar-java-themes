@@ -178,4 +178,4 @@ Versions used as reference:
 [6]: https://open-vsx.org/extension/zerodind/familiar-java-themes
 [7]: https://github.com/redhat-developer/vscode-java
 [8]: https://www.jetbrains.com/lp/mono/#how-to-install
-[9]: https://gitlab.com/0dinD/familiar-java-themes/-/issues
+[9]: https://gitlab.com/zerodind/familiar-java-themes/-/issues
