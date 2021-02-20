@@ -74,7 +74,7 @@ Semantic highlighting for Java is controlled by the following VS Code settings:
 - `editor.semanticHighlighting.enabled`
   - Defaults to true.
 - `java.semanticHighlighting.enabled`
-  - Defaults to true in since version `0.66.0` of the Language Support for Java extension.
+  - Defaults to true since version `0.66.0` of the Language Support for Java extension.
   - If you installed an earlier version of the Java extension, it's possible that this setting is still disabled.
   - You may need to restart VS Code after changing this setting in order for it to take effect.
 

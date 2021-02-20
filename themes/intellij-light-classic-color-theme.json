@@ -303,6 +303,14 @@
 			"foreground": "#000000",
 			"fontStyle": ""
 		},
+		"keyword:java": {
+			"foreground": "#000080",
+			"fontStyle": "bold"
+		},
+		"keyword.documentation:java": {
+			"foreground": "#808080",
+			"fontStyle": "italic bold underline"
+		},
 		"modifier:java": {
 			"foreground": "#000080",
 			"fontStyle": "bold"
@@ -310,6 +318,9 @@
 		"annotation:java": "#808000",
 		"typeParameter:java": "#20999D",
 		"function.static:java": { "fontStyle": "italic" },
+		"function.declaration:java": { "fontStyle": "" },
+		"method.static:java": { "fontStyle": "italic" },
+		"method.declaration:java": { "fontStyle": "" },
 		"property:java": {
 			"foreground": "#660E7A",
 			"fontStyle": "bold"
@@ -318,6 +329,13 @@
 		"propert.static.readonly:java": { "fontStyle": "italic bold" },
 		"enumMember:java": {
 			"foreground": "#660E7A",
+			"fontStyle": "italic bold"
+		},
+		"*.documentation": {
+			"fontStyle": "italic"
+		},
+		"parameter.documentation:java": {
+			"foreground": "#3D3D3D",
 			"fontStyle": "italic bold"
 		}
 	}

@@ -1,4 +1,7 @@
 # Change Log
+## [0.1.3] - 2021-02-20
+- Fix broken colors for new semantic tokens added in `redhat.java` version `0.75.0`
+
 ## [0.1.2] - 2020-10-15
 - Add missing color for italic markdown punctuation in IntelliJ themes
 - Use new semantic highlighting rules in `redhat.java` version `0.69.0`

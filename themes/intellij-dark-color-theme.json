@@ -338,6 +338,11 @@
 			"foreground": "#A9B7C6",
 			"fontStyle": ""
 		},
+		"keyword:java": "#CC7832",
+		"keyword.documentation:java": {
+			"foreground": "#629755",
+			"fontStyle": "italic bold underline"
+		},
 		"modifier:java": "#CC7832",
 		"annotation:java": "#BBB529",
 		"typeParameter:java": "#507874",
@@ -346,11 +351,20 @@
 			"foreground": "#FFC66D",
 			"fontStyle": ""
 		},
+		"method.static:java": { "fontStyle": "italic" },
+		"method.declaration:java": {
+			"foreground": "#FFC66D",
+			"fontStyle": ""
+		},
 		"property:java": "#9876AA",
 		"property.static:java": { "fontStyle": "italic"	},
 		"enumMember:java": {
 			"foreground": "#9876AA",
 			"fontStyle": "italic"
-		}
+		},
+		"*.documentation": {
+			"fontStyle": "italic"
+		},
+		"parameter.documentation": "#8A653B"
 	}
 }

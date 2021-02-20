@@ -331,6 +331,11 @@
 			"foreground": "#D9E8F7",
 			"fontStyle": ""
 		},
+		"keyword:java": "#CC6C1D",
+		"keyword.documentation:java": {
+			"foreground": "#9A8C7C",
+			"fontStyle": "bold"
+		},
 		"modifier:java": "#CC6C1D",
 		"class:java": "#1290C3",
 		"class.abstract:java": "#3EABE6",
@@ -373,6 +378,16 @@
 			"fontStyle": "italic"
 		},
 		"function.declaration:java": {
+			"foreground": "#1EB540",
+			"fontStyle": ""
+		},
+		"method:java": "#A7EC21",
+		"method.abstract:java": "#80F6A7",
+		"method.static:java": {
+			"foreground": "#96EC3F",
+			"fontStyle": "italic"
+		},
+		"method.declaration:java": {
 			"foreground": "#1EB540",
 			"fontStyle": ""
 		},

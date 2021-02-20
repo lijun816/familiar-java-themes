@@ -304,14 +304,25 @@
 			"foreground": "#000000",
 			"fontStyle": ""
 		},
+		"keyword:java": "#0033B3",
+		"keyword.documentation:java": {
+			"foreground": "#8C8C8C",
+			"fontStyle": "italic underline"
+		},
 		"modifier:java": "#0033B3",
 		"annotation:java": "#9E880D",
 		"typeParameter:java": "#007E8A",
 		"function.static:java": {
-			"foreground": "#00627A",
 			"fontStyle": "italic"
 		},
 		"function.declaration:java": {
+			"foreground": "#00627A",
+			"fontStyle": ""
+		},
+		"method.static:java": {
+			"fontStyle": "italic"
+		},
+		"method.declaration:java": {
 			"foreground": "#00627A",
 			"fontStyle": ""
 		},
@@ -320,6 +331,10 @@
 		"enumMember:java": {
 			"foreground": "#871094",
 			"fontStyle": "italic"
-		}
+		},
+		"*.documentation": {
+			"fontStyle": "italic"
+		},
+		"parameter.documentation:java": "#3D3D3D"
 	}
 }

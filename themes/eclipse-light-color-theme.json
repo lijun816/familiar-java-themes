@@ -314,6 +314,11 @@
 			"foreground": "#000000",
 			"fontStyle": ""
 		},
+		"keyword:java": {
+			"foreground": "#7F0055",
+			"fontStyle": "bold"
+		},
+		"keyword.documentation:java": "#7F9FBF",
 		"modifier:java": {
 			"foreground": "#7F0055",
 			"fontStyle": "bold"
@@ -322,6 +327,8 @@
 		"annotation.importDeclaration:java": "#000000",
 		"function.static:java": { "fontStyle": "italic" },
 		"function.declaration:java": { "fontStyle": "" },
+		"method.static:java": { "fontStyle": "italic" },
+		"method.declaration:java": { "fontStyle": "" },
 		"property:java": "#0000C0",
 		"property.static:java": { "fontStyle": "italic"	},
 		"property.static.readonly:java": { "fontStyle": "italic bold" },
