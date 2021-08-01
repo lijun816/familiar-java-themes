@@ -259,7 +259,7 @@
 		},
 		{
 			"scope": [
-				"variable.parameter.java"
+				"comment.block.javadoc.java variable.parameter.java"
 			],
 			"settings": {
 				"foreground": "#8A653B"
