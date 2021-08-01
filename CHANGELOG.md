@@ -1,4 +1,8 @@
 # Change Log
+## [0.1.4] - 2021-08-01
+- Fix wrong color for method parameters when not using semantic highlighting (#2)
+- Add missing styling for bold/italic markdown in Eclipse themes
+
 ## [0.1.3] - 2021-02-20
 - Fix broken colors for new semantic tokens added in `redhat.java` version `0.75.0`
 
