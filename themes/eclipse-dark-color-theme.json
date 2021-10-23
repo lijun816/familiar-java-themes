@@ -277,6 +277,7 @@
 			"scope": [
 				"storage.modifier.java",
 				"storage.modifier.extends.java",
+				"storage.modifier.super.java",
 				"storage.modifier.implements.java",
 				"storage.type.primitive.java",
 				"storage.type.primitive.array.java",
@@ -395,6 +396,11 @@
 			"fontStyle": "italic"
 		},
 		"typeParameter:java": "#BFA4A4",
+		"*.constructor:java": "#A7EC21",
+		"*.constructor.declaration:java": {
+			"foreground": "#1EB540",
+			"fontStyle": ""
+		},
 		"function:java": "#A7EC21",
 		"function.abstract:java": "#80F6A7",
 		"function.static:java": {

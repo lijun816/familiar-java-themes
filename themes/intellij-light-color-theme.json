@@ -245,6 +245,7 @@
 
 				"storage.modifier.java",
 				"storage.modifier.extends.java",
+				"storage.modifier.super.java",
 				"storage.modifier.implements.java",
 				"storage.type.primitive.java",
 				"storage.type.primitive.array.java",
@@ -312,6 +313,7 @@
 		"modifier:java": "#0033B3",
 		"annotation:java": "#9E880D",
 		"typeParameter:java": "#007E8A",
+		"*.constructor.declaration:java": "#00627A",
 		"function.static:java": {
 			"fontStyle": "italic"
 		},

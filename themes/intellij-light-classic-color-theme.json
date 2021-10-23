@@ -242,6 +242,7 @@
 
 				"storage.modifier.java",
 				"storage.modifier.extends.java",
+				"storage.modifier.super.java",
 				"storage.modifier.implements.java",
 				"storage.type.primitive.java",
 				"storage.type.primitive.array.java",
