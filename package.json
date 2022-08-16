@@ -66,6 +66,11 @@
 				"label": "IntelliJ Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/intellij-dark-color-theme.json"
+			},
+			{
+				"label": "IntelliJ+Eclipse Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/intellij-eclipse-dark-color-theme.json"
 			}
 		]
 	}
