@@ -4,7 +4,7 @@
 	"description": "Familiar color themes inspired by Java IDEs like Eclipse and IntelliJ IDEA.",
 	"author": "0dinD <zerodind@gmail.com>",
 	"publisher": "zerodind",
-	"version": "0.1.5",
+	"version": "0.1.6",
 	"preview": true,
 	"license": "SEE LICENSE IN LICENSE.txt",
 	"engines": {

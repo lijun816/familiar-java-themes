@@ -1,4 +1,8 @@
 # Change Log
+
+## [0.1.6] - 2022-08-16
+- Add IntelliJ+Eclipse Dark theme by @d_scalzi
+
 ## [0.1.5] - 2021-10-23
 - Add missing color for Java `super` keyword in generics
 - Use new semantic tokens introduced in `redhat.java` version `1.0.0`

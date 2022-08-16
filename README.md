@@ -45,7 +45,7 @@ as syntax highlighting has only a been implemented for a few Java-related langua
   - IntelliJ Light
   - IntelliJ Light (Classic)
   - IntelliJ+Eclipse Dark
-    - Look and feel of IntelliJ with Eclipse Dark semantic coloring.
+    - Look and feel of IntelliJ with Eclipse Dark semantic coloring
 - Matching themes for syntax highlighting
   - Support for **[semantic highlighting][4]**
   - Java syntax highlighting
