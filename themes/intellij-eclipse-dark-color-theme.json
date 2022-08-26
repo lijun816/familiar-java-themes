@@ -115,7 +115,8 @@
 		{
 			"scope": [
 				"comment",
-				"punctuation.definition.tag.xml"
+				"punctuation.definition.tag.xml",
+				"punctuation.separator.key-value.java-properties"
 			],
 			"settings": {
 				"foreground": "#808080"
@@ -351,7 +352,9 @@
 				"variable.language.java",
 				"variable.language.this.java",
 				"variable.other.object.property.java",
-				"punctuation.terminator.java"
+				"punctuation.terminator.java",
+				"constant.character.escape",
+				"support.constant.java-properties"
 			],
 			"settings": {
 				"foreground": "#CC6C1D"
@@ -384,7 +387,8 @@
 		{
 			"scope": [
 				"string.quoted.double",
-				"string.quoted.single"
+				"string.quoted.single",
+				"string.unquoted.java-properties"
 			],
 			"settings": {
 				"foreground": "#17C6A3"

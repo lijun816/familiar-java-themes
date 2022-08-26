@@ -65,7 +65,8 @@
 	"tokenColors": [
 		{
 			"scope": [
-				"source.java comment"
+				"source.java comment",
+				"comment.line.java-properties"
 			],
 			"settings": {
 				"foreground": "#3F7F5F"
@@ -230,7 +231,9 @@
 				"storage.type.object.array.java",
 				"entity.name.function.java",
 
-				"meta.embedded.block"
+				"meta.embedded.block",
+				"support.constant.java-properties",
+				"punctuation.separator.key-value.java-properties"
 			],
 			"settings": {
 				"foreground": "#000000"
@@ -317,7 +320,8 @@
 		{
 			"scope": [
 				"string.quoted.double",
-				"string.quoted.single"
+				"string.quoted.single",
+				"string.unquoted.java-properties"
 			],
 			"settings": {
 				"foreground": "#2A00FF"

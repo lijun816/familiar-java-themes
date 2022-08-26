@@ -165,7 +165,8 @@
 			"scope": [
 				"markup.inline.raw.string.markdown",
 				"markup.fenced_code.block.markdown",
-				"string.other.link.description.title.markdown"
+				"string.other.link.description.title.markdown",
+				"punctuation.separator.key-value.java-properties"
 			],
 			"settings": {
 				"foreground": "#808080"
@@ -305,7 +306,8 @@
 
 				"constant.character.escape",
 
-				"entity.name.section.group-title.editorconfig"
+				"entity.name.section.group-title.editorconfig",
+				"support.constant.java-properties"
 			],
 			"settings": {
 				"foreground": "#CC7832"
@@ -326,7 +328,8 @@
 				"markup.quote.markdown",
 
 				"source.editorconfig constant.language",
-				"source.editorconfig constant.numeric"
+				"source.editorconfig constant.numeric",
+				"string.unquoted.java-properties"
 			],
 			"settings": {
 				"foreground": "#6A8759"

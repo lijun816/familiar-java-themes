@@ -202,7 +202,9 @@
 		},
 		{
 			"scope": [
-				"meta.embedded.block"
+				"meta.embedded.block",
+				"support.constant.java-properties",
+				"punctuation.separator.key-value.java-properties"
 			],
 			"settings": {
 				"foreground": "#D9E8F7"
@@ -327,6 +329,7 @@
 			"scope": [
 				"string.quoted.double",
 				"string.quoted.single",
+				"string.unquoted.java-properties"
 			],
 			"settings": {
 				"foreground": "#17C6A3"
