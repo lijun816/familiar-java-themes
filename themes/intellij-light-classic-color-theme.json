@@ -115,6 +115,14 @@
 		},
 		{
 			"scope": [
+				"punctuation.separator.key-value.java-properties"
+			],
+			"settings": {
+				"foreground": "#808080"
+			}
+		},
+		{
+			"scope": [
 				"keyword.other.documentation.javadoc.java"
 			],
 			"settings": {
@@ -260,7 +268,8 @@
 				"variable.language.this.java",
 				"variable.other.object.property.java",
 
-				"entity.name.section.group-title.editorconfig"
+				"entity.name.section.group-title.editorconfig",
+				"support.constant.java-properties"
 			],
 			"settings": {
 				"foreground": "#000080",
@@ -282,7 +291,8 @@
 				"markup.quote.markdown",
 
 				"source.editorconfig constant.language",
-				"source.editorconfig constant.numeric"
+				"source.editorconfig constant.numeric",
+				"string.unquoted.java-properties"
 			],
 			"settings": {
 				"foreground": "#008000",
