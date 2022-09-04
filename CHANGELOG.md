@@ -1,5 +1,8 @@
 # Change Log
 
+## [0.1.7] - 2022-09-04
+- Support highlighting of Java Properties syntax by @d_scalzi
+
 ## [0.1.6] - 2022-08-16
 - Add IntelliJ+Eclipse Dark theme by @d_scalzi
 
